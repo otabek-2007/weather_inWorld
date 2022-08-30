@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/weather.css" />
+  </head>
+  <body>
+    <img src="/img/1618543497_41-p-fon-pogoda-46.jpg" class="body-img" alt="" />
+    <div class="container">
+      <div class="weather-shablon">
+        <div class="weather-in">
+          <div class="search-box">
+            <input type="text" class="weather-search" value="toshkent" />
+            <i class="fa-solid fa-magnifying-glass" id="icon-search"></i>
+          </div>
+          <div class="found-data">
+            <div class="line">
+              <div class="line-betwen"></div>
+            </div>
+            <div class="content-degAndWhat">
+              <div class="degree-air">
+                <h2>Degrees:</h2>
+                <div class="degree"></div>
+              </div>
+              <div class="what-air">
+                <div class="about">
+                  Humidity :
+                  <div class="personality"></div>
+
+                  <i class="fa-solid fa-droplet"></i>
+                </div>
+              </div>
+            </div>
+            <div class="date-box">
+              <div class="windSpeed">Speed : <span class="speed"> </span></div>
+              <div class="description">
+                Description:
+                <img src="" class="icon" alt="" />
+                <div class="howWeather"></div>
+              </div>
+            </div>
+            <div class="line">
+              <div class="line-betwen"></div>
+            </div>
+            <div class="Today">
+              <div class="about-country">
+                Country : <span class="country"></span>
+              </div>
+              <div class="time-box">City : <span class="city"></span></div>
+            </div>
+          </div>
+          <div class="not-found-data">
+            <div>
+              <img src="./img/sorry.webp" alt="" />
+            </div>
+            <p>Not found</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/weather.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,234 @@
+* {
+  margin: 0pc;
+  padding: 0pc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.body-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1111;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .weather-shablon {
+  height: 400px;
+  width: 500px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 20px;
+}
+
+.container .weather-shablon .weather-in {
+  width: 90%;
+  height: 90%;
+}
+
+.container .weather-shablon .weather-in .search-box {
+  width: 100%;
+  height: 20%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.container .weather-shablon .weather-in .search-box #icon-search {
+  width: 20%;
+  height: 69%;
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #148fdc;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .weather-shablon .weather-in .search-box .weather-search {
+  padding: 5px 20px;
+  width: 80%;
+  height: 70%;
+  font-size: 20px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.container .weather-shablon .weather-in .found-data {
+  width: 100%;
+  height: 80%;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.container .weather-shablon .weather-in .found-data .content-degAndWhat {
+  height: 30%;
+  width: 100%;
+}
+
+.container .weather-shablon .weather-in .found-data .content-degAndWhat .degree-air {
+  height: 50%;
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.container .weather-shablon .weather-in .found-data .content-degAndWhat .degree-air .degree {
+  padding-left: 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.container .weather-shablon .weather-in .found-data .content-degAndWhat .degree-air h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container .weather-shablon .weather-in .found-data .content-degAndWhat .what-air {
+  height: 50%;
+  width: 100%;
+}
+
+.container .weather-shablon .weather-in .found-data .content-degAndWhat .what-air .about {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.container .weather-shablon .weather-in .found-data .content-degAndWhat .what-air .about .personality {
+  padding-left: 10px;
+}
+
+.container .weather-shablon .weather-in .found-data .line {
+  width: 100%;
+  height: 5%;
+}
+
+.container .weather-shablon .weather-in .found-data .line .line-betwen {
+  height: 30%;
+  width: 100%;
+  border-radius: 20%;
+  background-color: #544f4f;
+}
+
+.container .weather-shablon .weather-in .found-data .date-box {
+  height: 30%;
+  width: 100%;
+}
+
+.container .weather-shablon .weather-in .found-data .date-box .windSpeed {
+  height: 30%;
+  width: 100%;
+}
+
+.container .weather-shablon .weather-in .found-data .date-box .description {
+  width: 100%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .weather-shablon .weather-in .found-data .date-box .description .icon {
+  padding-left: 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.container .weather-shablon .weather-in .found-data .Today {
+  width: 100%;
+  height: 30%;
+}
+
+.container .weather-shablon .weather-in .found-data .Today .about-country {
+  height: 50%;
+}
+
+.container .weather-shablon .weather-in .found-data .Today .time-box {
+  height: 50%;
+}
+
+.not-found-data {
+  display: none;
+}
+
+.not-found-data div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.not-found-data div img {
+  width: 120px;
+  height: 120px;
+}
+
+.not-found-data p {
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 350px) {
+  .container .weather-shablon {
+    margin: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .container .weather-shablon {
+    margin: 0px 5px;
+  }
+}
+/*# sourceMappingURL=weather.css.map */
